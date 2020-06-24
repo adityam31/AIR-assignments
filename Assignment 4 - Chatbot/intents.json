@@ -1,0 +1,33 @@
+{"intents":[
+	{
+		"tag":"greeting",
+		"patterns": ["Hi", "Hello", "Is anyone there?", "Hey", "Good day"],
+		"responses": ["Hi, Welcome to Investment Advisor. How can I help?","Hello, nice to see you. Welcome to Investment Advisor. How can I help?"]
+	},
+	{
+		"tag":"information",
+		"patterns": ["I am looking for investment options","Tell me investment options", "Investment plans","What are the plans","Options for money"],
+		"responses": ["There are 2 plans available right now: Long Term ABC plan and Short term XYZ plan","We have two options available: Long Term ABC plan and Short term XYZ plan"]
+	},
+	{
+		"tag":"long",
+		"patterns": ["tell me about long term plan","Long term plan", "What is the long term plan?","I want to invest long term", "minimum risk investment"],
+		"responses": ["Long term plan is essentially a 20% boost in your invested money per year with minimum risk. This is valid till 5 years.", "Minimum risk plan which gives 20% boost to your money with minimum risk."]
+	},
+	{
+		"tag":"short",
+		"patterns": ["tell me about short term plan","Short term plan", "What is the short term plan?","I want to invest short term", "quick investment"],
+		"responses": ["Short term plan is essentially a 10% boost in your invested money per month. This is valid for 6 months. Market risks are involved"]
+	},
+	{
+		"tag": "goodbye",
+		"patterns": ["Bye", "See you later", "Goodbye"],
+		"responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {
+    	"tag": "opentoday",
+    	"patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+    	"responses": ["Our hours are 9am-9pm every day","We are open from 9 am to 9pm every day of the week!"]
+    }
+]
+}
